@@ -1,6 +1,7 @@
 // Dependencies
 // =============================================================
 const inquirer = require("inquirer");
+const view = require("./lib/functions/view");
 
 // Functions
 // =============================================================
@@ -44,7 +45,7 @@ function mainMenu() {
                 //   rangeSearch();
                 break;
             case 'View All Departments':
-                //   songSearch();
+                  view.dept();
                 break;
             case 'View All Roles':
                 //   songAndAlbumSearch();
