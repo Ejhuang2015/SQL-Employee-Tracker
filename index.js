@@ -35,53 +35,67 @@ function mainMenu() {
     }).then((res) => {
         switch (res.startSelection) {
             case 'Add a Department':
-              artistSearch();
+            //   artistSearch();
               break;
             case 'Add a Role':
-              multiSearch();
+            //   multiSearch();
               break;
             case 'Add an Employee':
-              rangeSearch();
+            //   rangeSearch();
               break;
             case 'View All Departments':
-              songSearch();
+            //   songSearch();
               break;
             case 'View All Roles':
-              songAndAlbumSearch();
+            //   songAndAlbumSearch();
               break;
             case 'View All Employees':
-              songAndAlbumSearch();
+            //   songAndAlbumSearch();
               break;
             case 'Remove a Department':
-              songSearch();
+            //   songSearch();
               break;
             case 'Remove a Role':
-              songAndAlbumSearch();
+            //   songAndAlbumSearch();
               break;
             case 'Remove an Employee':
-              songAndAlbumSearch();
+            //   songAndAlbumSearch();
               break;
             case "Update an Employee's Role":
-              songSearch();
+            //   songSearch();
               break;
             case "Update an Employee's Manager":
-              songAndAlbumSearch();
+            //   songAndAlbumSearch();
               break;
             case 'View All Employees by Manager':
-              songAndAlbumSearch();
+            //   songAndAlbumSearch();
               break;
             case "View a Department's Total Budget":
-              songAndAlbumSearch();
+            //   songAndAlbumSearch();
+              break;
+            case "Exit":
+              console.log("Thanks for using the Employee Tracker. Goodbye.")
               break;
             default:
-              console.log(`Invalid action: ${answer.action}`);
-              break;
+              console.log(`Uh oh, you broke me! Tell my creator how I died...`);
         }
     })
 };
 
+// Fun ASCII art
+function splashArt(){
+    console.log(`
+  ____________________  
+((                    ))
+ )) Employee Tracker ((
+((                    ))  
+  --------------------  
+`)
+}
+
 // Bootup function
 function init() {
+    splashArt();
     mainMenu();
 }
 
