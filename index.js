@@ -1,7 +1,5 @@
 // Dependencies
 // =============================================================
-const inquirer = require("inquirer");
-const connection = require("./config/connection");
 const menu = require("./lib/functions/mainMenu");
 
 // Functions
