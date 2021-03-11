@@ -17,9 +17,10 @@ function splashArt() {
 
 // Bootup function
 function init() {
-    splashArt();
-    menu.mainMenu();
+  splashArt();
+  menu.mainMenu();
 }
+
 
 // Initiate
 // =============================================================
