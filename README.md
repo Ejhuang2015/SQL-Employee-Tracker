@@ -7,6 +7,8 @@ This is a mySQL practice CLI application. Within the console, the user is able t
 
 ![Finish](./assets/screen2.png)
 
+[Demo Video](https://youtu.be/w_9w_-zfR74)
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -23,7 +25,7 @@ To use the program, the user should locate the folder directory within their con
 # Contributors
 Thanks to the following people who have contributed to this project:
 
-* * [Scott Byer](https://github.com/switch120) 
+* [Scott Byer](https://github.com/switch120) 
 * [Mike Fearly](https://michaelfearnley.com/)
 * UNH Full Stack Development Bootcamp
 
