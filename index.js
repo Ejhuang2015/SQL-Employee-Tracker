@@ -8,10 +8,10 @@ const menu = require("./lib/functions/mainMenu");
 function splashArt() {
     console.log(`
   ____________________  
-((                    ))
+((  °˖✧◝(⁰▿⁰)◜✧˖°  ))
  )) Employee Tracker ((
-((                    ))  
-  --------------------  
+((____________________))
+
 `)
 }
 
